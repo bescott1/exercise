@@ -1,0 +1,11 @@
+version: '2'
+services:
+  exercise-postgresql:
+    image: postgres:12.1
+    # volumes:
+    #     - ~/volumes/jhipster/exercise/postgresql/:/var/lib/postgresql/data/
+    environment:
+      - POSTGRES_USER=exercise
+      - POSTGRES_PASSWORD=
+    ports:
+      - 5432:5432

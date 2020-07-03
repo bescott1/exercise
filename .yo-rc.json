@@ -1,0 +1,37 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.ippon.exercise"
+    },
+    "jhipsterVersion": "6.9.0",
+    "applicationType": "microservice",
+    "baseName": "exercise",
+    "packageName": "com.ippon.exercise",
+    "packageFolder": "com/ippon/exercise",
+    "serverPort": "8081",
+    "authenticationType": "jwt",
+    "cacheProvider": "no",
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "postgresql",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": false,
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "YTQ4NDIwMGMwYzFhMTAzNWJmYzA3M2E5MGY2NjIxM2Y5YmIyM2MzMjhlZjYwMWZkZmU2OWFjZGYyYjU0NzBkZDc4Y2M1Yzc4YjA3OTVhMGU0ZDg4NjdkZDAxMDViNDMxNjBkOTQ0NzQyZDNlMDRiOWE3YTQ0YmFhMGJlNWU0MmQ=",
+    "embeddableLaunchScript": false,
+    "creationTimestamp": 1590593140421,
+    "testFrameworks": ["cucumber"],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": false,
+    "clientPackageManager": "npm",
+    "blueprints": [],
+    "skipClient": true,
+    "skipUserManagement": true
+  }
+}
